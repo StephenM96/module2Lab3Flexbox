@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item-1, .flex-item-2, .flex-item-3, .flex-item-4 {
+    flex: 90;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-space-between {
+   justify-content: end; 
+}
+
+.flex-basis-item-50 {
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
