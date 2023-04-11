@@ -1,6 +1,15 @@
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    section {
+        color: red;
+        font-size: 15px;
+    }
+    .background-4 {
+        display: none;
+    }
+  }
 .flex-container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .flex-item-1, .flex-item-2, .flex-item-3, .flex-item-4 {
@@ -13,10 +22,10 @@
 }
 
 .flex-space-between {
-   justify-content: end; 
+   justify-content: space-evenly; 
 }
 
 .flex-basis-item-50 {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-basis: 50%;
 }
